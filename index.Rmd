@@ -1,0 +1,211 @@
+---
+title: <br><br><center>PLANET ESCAPE _ LLORET GROUP<center>
+author: "Minerva Martinez"
+date: "`r Sys.Date()`"
+output:
+  rmdformats::readthedown:
+    highlight: kate
+    thumbnails: false
+    lightbox: true
+    gallery: true
+    css: form.css
+---
+
+<script> 
+    $(document).ready(function() { 
+    $head = $('#header'); 
+    $head.prepend('<A href = https://www.cuttingedge-events.com><img src ="LOGO.png" width="150" vspace="50" align="right"></A>') 
+    }); 
+</script> 
+
+
+
+```{r echo=FALSE, message=FALSE,warning=FALSE}
+library(readxl)
+library(shiny)
+library(dplyr)
+library(knitr)
+```
+
+## Barcelona Accommodation {.tabset .tabset-fade .tabset-pills}
+
+<iframe src="https://www.google.com/maps/d/embed?mid=18lsUWnsittEnWTL73qCdX6dpwwWjUsJu&hl=es" width="800" height="550"></iframe>
+
+### Catalonia Atenas
+
+The **Atenas Catalonia** has a rooftop swimming pool, offering views of the nearby Torre Agbar and Sagrada Familia. It also features free WiFi, a gym and a spa with a Turkish bath.
+
+The bright rooms of Hotel Atenas Barcelona have simple décor with wooden flooring. Each has air conditioning, a mini fridge with complimentary water, and satellite TV.
+
+The hotel's buffet breakfast features a show kitchen. There is a snack bar and guests can enjoy stunning city views from the pool, set on the 11th floor.
+
+<img src = "https://r-ak.bstatic.com/images/hotel/max1024x768/684/68457990.jpg" width="390"> <img src = "https://q-ak.bstatic.com/images/hotel/max1024x768/515/51538238.jpg" width="390" align="right">
+
+<img src = "https://q-ak.bstatic.com/images/hotel/max1024x768/197/197184235.jpg">
+
+
+### Ayre Caspe
+
+This design hotel is a 5-minute walk from Barcelona’s Arc de Triomf Metro Station and Estació del Nord Bus Station. It has a gym, and offers free Wi-Fi and free bottled water.
+
+Rooms at the **Ayre Hotel** Caspe are air-conditioned and soundproofed. They feature satellite TV, a minibar and safe. The private bathroom comes with a hairdryer and amenities.
+
+The **Ayre Caspe** has an outdoor terrace, an attractive restaurant and a café-bar. Room service is also available.
+
+The hotel is a short walk from Gaudí's buildings on Passeig de Gràcia Boulevard. Plaza Catalunya is approximately 20 minutes' walk away.
+
+<img src = "https://r-ak.bstatic.com/images/hotel/max1024x768/138/138878222.jpg" width="390"> <img src = "https://r-ak.bstatic.com/images/hotel/max1024x768/533/53365754.jpg" width="390" align="right">
+
+<img src = "https://r-ak.bstatic.com/images/hotel/max1024x768/138/138878231.jpg">
+
+
+### Ayre Gran Via
+
+**The Ayre Hotel Gran Via** is a modern design hotel with a bright central courtyard. It offers free Wi-Fi and a convenient location, next to Barcelona’s Plaça Espanya.
+
+The modern rooms at the Ayre Hotel Barcelona feature a private bathroom, and free mineral water for the first night. They are all soundproofed, with flat-screen TVs and air conditioning.
+
+The hotel is set next to the Fira Exhibition Centre, at the bottom of Montjuic. This hill is home to a castle, the National Art Museum and the Magic Fountain.
+
+Espanya Metro Station is 150 m from the hotel. The historic centre of Barcelona and the famous Ramblas are just a few stops away. A direct bus service to the airport stops in Plaça Espanya, near the hotel.
+
+<img src = "https://r-ak.bstatic.com/images/hotel/max1024x768/138/138876617.jpg" width="410"> <img src = "https://r-ak.bstatic.com/images/hotel/max1024x768/585/58524759.jpg" width="370" align="right">
+
+<img src = "https://q-ak.bstatic.com/images/hotel/max1024x768/585/58524546.jpg">
+
+
+## Lloret Accommodation {.tabset .tabset-fade .tabset-pills}
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1H0Bu1wH2REizHeR1flaLsIpZSQg4MjkW&hl=es" width="800" height="550"></iframe>
+
+### Evenia Olypmic Resort
+
+This hotel is located in a quiet area of Lloret de Mar, 1 km from the beach. It offers 6 swimming pools, some of them with water slides.
+
+The air-conditioned rooms at **Evenia Olympic Resort** feature flat-screen satellite TV, a safe and a private bathroom with a hairdryer and toiletries. Each one comes with a private balcony.
+
+The hotel offers various buffet restaurants serving local and international food. There is also a poolside snack bar and a nightclub, as well as a varied entertainment programme for adults and children. The hotel also has an internet corner.
+
+The Sport Club, accessible for an extra cost, includes a hot tub, a sauna, a heated indoor swimming pool and a Turkish bath. There are also squash courts and a fitness centre offering a range of classes.
+
+You can walk to Lloret town centre in around 10 minutes from the Evenia Olympic Resort
+
+    The all-inclusive package is including:
+    Room with terrace
+    Breackfast, lunch and dinner buffet
+    Water, wine, beer, soft-drinks during lunsh or dinner
+    Alcoholic drinks (standard brands), wine, beer, sangria and soft-drinks from 10.00h to 00.00h.(not
+    included at the disco)
+
+<img src = "https://r-ak.bstatic.com/images/hotel/max1024x768/138/138876617.jpg" width="400"> <img src = "https://r-ak.bstatic.com/images/hotel/max1024x768/993/99378314.jpg" width="390" align="right">
+
+<img src = "https://q-ak.bstatic.com/images/hotel/max1024x768/106/106512318.jpg">
+
+<img src = "https://r-ak.bstatic.com/images/hotel/max1024x768/438/43849418.jpg">
+
+### Alegria Sun Village
+
+Located 3 minutes' walk from the beach, **Sun Village** hotel offers rooms with views over the sea, pool or the mountains. The hotel has 2 swimming pools and offers free WiFi.
+
+Air-conditioned rooms are equipped with a flat-screen TV, fridge, furnished balcony and desk. A private bathroom with a shower. A safe is available at an extra cost.
+
+This hotel has a restaurant, a bar and a sun terrace. Reception and info desk are open 24 hours a day.
+
+Several shops and restaurants can be found within 100 m of the property. The centre of Lloret de Mar is less than 5 minutes’ walk from the hotel.
+
+<img src = "https://q-ak.bstatic.com/images/hotel/max1024x768/199/199199819.jpg" width="390"> <img src = "https://q-ak.bstatic.com/images/hotel/max1024x768/199/199199866.jpg" width="390" align="right">
+
+<img src = "https://q-ak.bstatic.com/images/hotel/max1024x768/199/199200025.jpg">
+
+
+## Programme
+
+### **Programme Overview and timeline**
+
+```{r echo=FALSE, message=FALSE,warning=FALSE}
+library(timevis)
+library(dplyr)
+library(readxl)
+
+timeline <- read_excel("timeline.xlsx", sheet = "Sheet1", 
+    col_types = c("date", 
+        "text", "text", "numeric", "text", 
+        "text"))
+
+data <- data.frame( id = 1:length(timeline$start),
+                    start = as.POSIXlt(timeline$start),
+                    content = timeline$content,
+                    group = timeline$group,
+                    type = "box",
+                    style = "background-color:#FF9933;")
+
+groups = data.frame(id = 1:4, content = c("Morning", "Lunch", "Afternoon", "Diner"))
+
+tl <- timevis(data, groups, showZoom = TRUE, zoomFactor = 0.2, fit = TRUE, width = '100%', height = 300)
+
+tl %>% setOptions(list(orientation = "top", align = "left"))
+
+```
+
+### **October 6th** 
+
+The flight will arrive in Barcelona at 23.35h, a 70 seaters bus will transfer the group to the chosen hotel.
+
+
+### **October 7th** 
+
+After enjoying the breakfast at the hotel, guests will do the check-out from their rooms and will meet their guides at the hotel's reception. (The luggage will be kept in the bus from the morning until Lloret)
+
+From 9.30h to 13.30h They will do a tour that will allow them to learn about the city, not only from the bus, they will stop in Montjuic to see the wonderful views from the top of the hill, then they will pass trough Plaça Espanya to see the Palace and the Fountains. Then the bus will stop 10 minutes away from Sagrada Familia, the guides will split guests in 2 groups to walk them to see the Temple façades and explain every detail...
+Then The bus will drive them to Colon, where guests will start a walking tour trought the Gothic quarter: Las Ramblas, the Cathedral, La Boquería, etc and the tour will end at the restaurant for lunch.
+
+<img src = "https://tmb-toci.s3.eu-west-1.amazonaws.com/styles/galeria_slider/s3/s3fs-public/2017-10/REF_SAGRADA_FAMILIA_CT6A6208.jpg?7JKO3r6dfMWhPtMtGDYmkCJ8VPip3aSK&itok=mHc2aDQX" width="420"> <img src = "https://barcelonando.com/wp-content/uploads/2018/07/barcelona-cathedral.jpg" width="370" align="right">
+
+<img src = "https://www.driftwoodjournals.com/wp-content/uploads/2016/01/Placa-Reial-Gothic-Quarter-Barcelona.jpg">
+
+The restaurant we propose for lunch is *Braseria El Glop*, it is located just 2 minutes from Plaça Catalunya. They offer Catalan cuisine, all traditional recepies elaborated with fresh seasonal ingredients.
+
+<img src = "https://u.tfstatic.com/restaurant_photos/783/273783/169/612/braseria-el-glop-vista-de-la-sala-d5d84.jpg" width="800">
+
+After lunch our guests will enjoy a little bit of free time for shopping or just to take a walk. 
+
+As we calculate that they will finish lunch at 15.30h, we would propose to ask guests to meet at plaza catalunya at 17.00h to go to Lloret.
+
+The transfer from Barcelona to Lloret is about 1h15minutes, so they will arrive in Lloret at 18.15h or 18.30h.
+
+Once at the hotel, they will enjoy the "all-inclusive", so they can relax and have a wonderful time.
+
+### **October 8th & 9th**
+
+Guests will enjoy free time at the hotel.
+
+### **October 10th**
+
+At 13.30h our 70 seater bus will transfer guests to the Barcelona Airport.
+
+<img src = "https://imagenes.paginasamarillas.es/autocares-plana/fotos/329/956/13N/008/plana_01mini.jpg" width="800">
+
+The group will arrive to the airport around 15.00h and the flight will depart at 17.05h
+
+END OF THE PROGRAMME
+
+*****
+
+## Terms & Conditions
+
+  * Rates valid for 2019.
+  
+  * Net rates for Planet Escape
+  
+  * Cutting Edge Events management fee including in the detailed rates
+  
+  * VAT included. 
+  
+  * No reservation has been done. Availability upon request.
+  
+*****
+
+
+
+
+
